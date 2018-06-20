@@ -1,0 +1,20 @@
+branch-defaults:
+  default:
+    environment: null
+    group_suffix: null
+deploy:
+  artifact: target/tomcat-web-service.war
+global:
+  application_name: tomcat-web-service
+  branch: null
+  default_ec2_keyname: MyEC2KeyPair
+  default_platform: Tomcat 8.5 Java 8
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: null
+  workspace_type: Application
